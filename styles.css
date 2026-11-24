@@ -194,3 +194,20 @@ a:focus-visible, .btn:focus-visible, summary:focus-visible { outline: 3px solid 
   .site-header nav .btn-small { background: none; padding: 0; color: var(--green-600) !important; font-weight: 600; transform: none; }
   .split, .contact-grid { grid-template-columns: 1fr; gap: 28px; }
 }
+
+/* Homepage notice strip */
+.notice { background: var(--green-50); border-bottom: 1px solid var(--line); padding: 14px 0; font-size: .97rem; color: var(--ink); }
+.notice a { font-weight: 600; white-space: nowrap; }
+
+/* Articles */
+.prose { max-width: 760px; }
+.prose p, .prose li { font-size: 1.05rem; color: #2b3a33; }
+.prose h2 { margin-top: 1.8em; font-size: clamp(1.4rem, 2.4vw, 1.75rem); }
+.prose h3 { margin-top: 1.5em; font-size: 1.15rem; }
+.prose ul { padding-left: 22px; margin: 0 0 1.2em; }
+.prose li { margin-bottom: .5em; }
+.prose .callout { margin: 28px 0; }
+.fine-print { font-size: .9rem !important; color: var(--muted) !important; border-top: 1px solid var(--line); padding-top: 18px; margin-top: 36px; }
+.post-date { font-size: .82rem; text-transform: uppercase; letter-spacing: .08em; color: var(--green-600) !important; font-weight: 600; margin-bottom: 8px !important; }
+.card .post-date + h3 { line-height: 1.35; }
+.card .post-date ~ p:last-child { margin-top: 10px; }

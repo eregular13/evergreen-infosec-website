@@ -8,10 +8,12 @@ Source for [evergreen-infosec.com](https://evergreen-infosec.com), a static site
 | `assessments.html` | Security assessments |
 | `grc.html` | GRC advisory and Trace GRC |
 | `ai-solutions.html` | AI Solutions (forward deployment) |
+| `insights.html` | Insights (article list) |
+| `openworks-security-questions.html` | Article: OpenWorks and five security questions |
 | `contact.html` | Contact |
 | `404.html` | Not-found page |
 
-`styles.css` holds the styles shared by every page. The header and footer are repeated in each page, so a navigation change needs to be made in all five. `sitemap.xml` lists the pages for search engines; add any new page there too. `CNAME` sets the custom domain for GitHub Pages.
+`styles.css` holds the styles shared by every page. The header and footer are repeated in each page, so a navigation change needs to be made in every page. `sitemap.xml` lists the pages for search engines; add any new page there too. `CNAME` sets the custom domain for GitHub Pages.
 
 No build step. Edit the HTML and push to `main`; GitHub Pages publishes within a minute or two.
 
