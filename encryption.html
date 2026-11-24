@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Full-Disk Encryption Services | Evergreen InfoSec</title>
+  <meta name="description" content="Full-disk encryption planning, deployment, and verification for Windows (BitLocker), macOS (FileVault), and Linux (LUKS), with recovery key escrow and compliance-ready reporting.">
+  <link rel="canonical" href="https://evergreen-infosec.com/encryption.html">
+  <meta property="og:title" content="Full-Disk Encryption Services | Evergreen InfoSec">
+  <meta property="og:description" content="Make a lost laptop an equipment problem, not a data breach.">
+  <meta property="og:url" content="https://evergreen-infosec.com/encryption.html">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="./" aria-label="Evergreen InfoSec home">
+        <img src="favicon.svg" alt="" width="32" height="32">
+        <span>Evergreen <strong>InfoSec</strong></span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="assessments.html">Assessments</a>
+        <a href="grc.html">GRC advisory</a>
+        <a href="encryption.html" aria-current="page">Encryption</a>
+        <a class="btn btn-small" href="contact.html">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero page-hero">
+      <div class="container">
+        <p class="eyebrow">Full-disk encryption</p>
+        <h1>A lost laptop should be an equipment problem, not a data breach.</h1>
+        <p class="lede">Encryption only protects you if it's on everywhere, the keys are recoverable, and you can prove both. We handle the whole lifecycle.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Every platform in your fleet</h2>
+        <p class="section-intro">We work with the encryption built into your operating systems and the management tools you already run.</p>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Windows: BitLocker</h3>
+            <p>TPM and startup PIN policy, XTS-AES settings, recovery keys escrowed to Entra ID or Active Directory, and deployment through Intune or Group Policy.</p>
+          </article>
+          <article class="card">
+            <h3>macOS: FileVault</h3>
+            <p>FileVault enforcement through your MDM, with personal recovery keys escrowed and retrievable by authorized administrators.</p>
+          </article>
+          <article class="card">
+            <h3>Linux: LUKS</h3>
+            <p>LUKS2 for laptops and servers, including TPM-bound unlocking where it fits and a documented process for recovery.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container split">
+        <div>
+          <h2>From inventory to proof</h2>
+          <p>Turning encryption on is the easy part. The value is in finding every device, making sure you can always recover, and being able to show it.</p>
+        </div>
+        <ol class="steps">
+          <li><strong>Inventory</strong><span>Find every device and its current encryption state, across all your management tools.</span></li>
+          <li><strong>Design</strong><span>Choose policies, TPM and PIN settings, and where recovery keys are escrowed.</span></li>
+          <li><strong>Deploy</strong><span>Roll out in phases through your MDM or management tooling, with minimal disruption to users.</span></li>
+          <li><strong>Verify</strong><span>Confirm coverage, test real recoveries, and document compliance evidence.</span></li>
+          <li><strong>Sustain</strong><span>Watch for drift, onboard new devices, and keep runbooks current.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2>What you receive</h2>
+          <p>Everything you need to answer &ldquo;is that device encrypted?&rdquo; quickly and with confidence.</p>
+        </div>
+        <ul class="feature-list">
+          <li><strong>Coverage report.</strong> Every device, its encryption state, and where its recovery key is escrowed, with gaps called out.</li>
+          <li><strong>Recovery runbook.</strong> Step-by-step procedures your help desk can follow, tested against real devices.</li>
+          <li><strong>Policy documentation.</strong> Settings and decisions written down, ready for auditors and insurers.</li>
+          <li><strong>Exception list.</strong> Devices that can't be encrypted, why, and the compensating controls in place.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2>Common questions</h2>
+        <div class="faq" style="margin-top:28px">
+          <details>
+            <summary>Will encryption slow down our computers?</summary>
+            <p>On modern hardware, built-in encryption uses processor acceleration and the impact is negligible for everyday work.</p>
+          </details>
+          <details>
+            <summary>What happens if someone forgets their PIN or a device won't boot?</summary>
+            <p>That's what key escrow and the recovery runbook are for. Authorized staff can retrieve the recovery key and get the user working again. We test this before rollout, not after.</p>
+          </details>
+          <details>
+            <summary>Do we need to buy new software?</summary>
+            <p>Usually not. BitLocker, FileVault, and LUKS are built into the operating system, and we manage them through tools you likely already own, such as Intune or your MDM.</p>
+          </details>
+          <details>
+            <summary>Does encryption help with breach notification rules?</summary>
+            <p>Many data breach laws and regulations treat properly encrypted data differently from unencrypted data. Your legal counsel can tell you how that applies to you; we make sure you have the evidence to show encryption was in place.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cta">
+      <div class="container cta">
+        <h2>Find out how much of your fleet is really encrypted.</h2>
+        <p>Start with an inventory: the fastest way to find devices nobody knew were unprotected.</p>
+        <a class="btn btn-light" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>&copy; <span id="year">2026</span> Evergreen InfoSec</span>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="assessments.html">Assessments</a>
+        <a href="grc.html">GRC advisory</a>
+        <a href="encryption.html">Encryption</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
