@@ -7,7 +7,7 @@ Source for [evergreen-infosec.com](https://evergreen-infosec.com), a static site
 | `index.html` | Home |
 | `assessments.html` | Security assessments |
 | `grc.html` | GRC advisory and Trace GRC |
-| `encryption.html` | Full-disk encryption |
+| `ai-solutions.html` | AI Solutions (forward deployment) |
 | `contact.html` | Contact |
 | `404.html` | Not-found page |
 
